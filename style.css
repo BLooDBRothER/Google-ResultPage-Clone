@@ -35,8 +35,8 @@ header .top{
 }
 
 .google-logo img{
-    width: 130px;
-    height: 45px;
+    width: 92px; /* 92 */
+    height: 33px; /* 33 */
     margin-right: 2rem;
 }
 
