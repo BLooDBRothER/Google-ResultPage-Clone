@@ -1,0 +1,155 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  height: 100vh;
+}
+
+body {
+  font-size: 13px;
+  font-family: arial, sans-serif;
+}
+
+header{
+    border-bottom: 1px solid black;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+header .top{
+    display: flex;
+    margin-bottom: 1rem;
+    box-sizing: unset;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.google-logo img{
+    width: 130px;
+    height: 45px;
+    margin-right: 2rem;
+}
+
+.input-ic{
+    height: 24px;
+    width: 24px;
+    padding: 0.1rem .5rem;
+    box-sizing: unset;
+    cursor: pointer;
+}
+
+.user-ic{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    padding: .5rem;
+    box-sizing: unset;
+    cursor: pointer;
+}
+
+.form {
+    width: 692px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 24px;
+    padding: 1rem;
+    margin: 1rem 0;
+    position: relative;
+}
+
+.form:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.input{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.input input{
+    flex: 1;
+    border: none;
+    font-size: 16px;
+}
+
+.input input:focus{
+    outline: none;
+}
+
+.input .input-ic{
+    border-right: 1px solid rgba(0, 0, 0, 0.315);
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.right .input-ic:hover{
+    padding: .5rem;
+    border-radius: 50%;
+    background-color: rgba(60,64,67,0.08);
+}
+
+.bottom{
+    width: 665px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 184px;
+    color: #5f6368;
+}
+
+.bt-left{
+    display: flex;
+    
+}
+
+.cnt{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.cnt:first-child{
+    border-bottom: 3px solid #4285F4;
+    color: #1a73e8;
+}
+
+.bt-ic{
+    width: 16px;
+    height: 16px;
+    margin-right: .5rem;
+}
+
+.bt-right{
+    padding-bottom: 1rem;
+}
+
+#tools{
+    padding: .5rem 1rem;
+    border: 1px solid transparent;
+}
+
+#tools:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    cursor: pointer;
+    border-color: #dadce0;
+    color: #202124;
+}
