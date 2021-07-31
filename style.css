@@ -15,6 +15,11 @@ body {
   font-family: arial, sans-serif;
 }
 
+a > h2{
+    color: #1a0dab;
+    font-weight: unset;
+}
+
 header{
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
@@ -35,8 +40,8 @@ header .top{
 }
 
 .google-logo img{
-    width: 92px; /* 92 */
-    height: 33px; /* 33 */
+    width: 92px; 
+    height: 33px; 
     margin-right: 2rem;
 }
 
@@ -62,7 +67,7 @@ header .top{
     height: 46px;
     display: flex;
     align-items: center;
-    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
     border-radius: 24px;
     padding: 1rem;
     margin: 1rem 0;
@@ -96,6 +101,7 @@ header .top{
 .right{
     display: flex;
     align-items: center;
+    margin-left: 5rem;
 }
 
 .right .input-ic:hover{
@@ -105,11 +111,11 @@ header .top{
 }
 
 .bottom{
-    width: 665px;
+    width: 692px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 184px;
+    margin-left: 145px;
     color: #5f6368;
 }
 
@@ -127,7 +133,7 @@ header .top{
 }
 
 .cnt:first-child{
-    border-bottom: 3px solid #4285F4;
+    border-bottom: 3px solid #4285F4;   
     color: #1a73e8;
 }
 
@@ -152,4 +158,80 @@ header .top{
     cursor: pointer;
     border-color: #dadce0;
     color: #202124;
+}
+
+main{
+    width: 652px;
+    margin-left: 160px;
+    font-size: 14px;
+}
+
+.fetch-time{
+    margin: .5rem 0 2rem 0;
+    color: #70757a;
+}
+
+.fetch-time h4{
+    font-weight: unset;
+}
+
+.top-main{
+    cursor: pointer;
+}
+
+.top-main a{
+    text-decoration: none;
+}
+
+.top-main:hover a{
+    text-decoration: underline;
+}
+
+.top-main a h2{
+    margin: .45rem 0;
+}
+
+.link-disp{
+    color: #202124;
+    text-decoration: none !important;
+}
+
+.link-disp, .link-disp span{
+    display: flex;
+    align-items: center;
+}
+
+.drop-down-ic{
+    margin-left: .7rem;
+    width: 13px;
+    height: 13px;
+    transform: rotate(180deg);
+}
+
+.more-links{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 0rem;
+}
+
+.more-links a{
+    text-decoration: none;
+}
+
+.more-links a:hover{
+    text-decoration: underline;
+}
+
+.link{
+    padding: 1rem 5rem 0 0;
+}
+
+.sub-result{
+    margin: 2.5rem 0;
+}
+
+.des{
+    line-height: 1.5rem;
+    color: #4d5156;
 }
