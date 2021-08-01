@@ -32,6 +32,7 @@ header .top {
   box-sizing: unset;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .left {
@@ -164,6 +165,7 @@ main {
   margin-left: 160px;
   font-size: 14px;
   margin-bottom: 2rem;
+  position: relative;
 }
 
 .fetch-time {
@@ -311,6 +313,55 @@ main {
     flex: 1;
     text-align: center;
     color: #1a0dab;
+}
+
+aside{
+  position: absolute;
+  top: 3rem;
+  left: 120%;
+  width: 366px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+aside>h2{
+  font-weight: unset;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.result{
+  display: flex;
+  align-items: center;
+  padding: .5rem 1rem;
+  cursor: pointer;
+}
+
+.result:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.result h2{
+  font-weight: unset;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.txt div{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.result-ic{
+  width: 30px;
+  height: 30px;
+  margin-right: 1.3rem;
+}
+
+.result img{
+  width: 30px;
+  height: 30px;
+  margin-left: 90px;
 }
 
 .footer {
